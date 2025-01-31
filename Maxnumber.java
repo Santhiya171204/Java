@@ -1,18 +1,11 @@
 import java.util.Scanner;
 public class Maxnumber {
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
-        System.out.println("Enter the number");
-
-        // Fixing the typo here
-        Scanner sc = new Scanner(System.in);
         
+        System.out.println("Enter the number");
+        Scanner sc = new Scanner(System.in);
         int a = 10, b = 20, c = 15, max;
-
-        // Correcting the ternary logic to find the max
         max = (a > b) ? (a > c ? a : c) : (b > c ? b : c);
-
-        // Fixed the print statement and added proper spacing
         System.out.println("Maximum number among " + a + ", " + b + " and " + c + " is " + max);
     }
 }
